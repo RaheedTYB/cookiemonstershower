@@ -61,18 +61,26 @@
       pointer-events: none;
     }
 
-    /* ── MAIN WRAPPER ── */
-    .wrapper {
-      position: relative;
-      z-index: 1;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      padding: 40px 20px 60px;
-      gap: 28px;
-    }
+
+html, body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+    
+/* ── MAIN WRAPPER ── */
+.wrapper {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100dvh;
+  padding: 40px 20px 60px;
+  gap: 28px;
+}
 
     .divider {
       width: 60px;
